@@ -87,7 +87,7 @@ void initializePatterns()
 	patterns.push_back(invertPattern(patterns[patterns.size() - 1]));
 	patterns.push_back(std::vector<size_t> { 16, 0, 1, 35, 28, 20, 21, 29, 18, 8, 9, 31, 32, 24, 25, 33, 36, 37, 38, 39 });
 	patterns.push_back(invertPattern(patterns[patterns.size() - 1]));
-	patterns.push_back(std::vector<size_t> { 19, 12, 13, 33, 34, 26, 27, 35, 17, 4, 5, 29, 30, 31, 22, 23, 36, 37, 38, 39 });
+	patterns.push_back(std::vector<size_t> { 2, 3, 20, 21, 17, 28, 29, 36, 37, 30, 34, 39, 38, 19, 33, 32, 24, 25, 10, 11 });
 	patterns.push_back(invertPattern(patterns[patterns.size() - 1]));
 }
 
